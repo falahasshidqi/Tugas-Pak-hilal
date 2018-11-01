@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title></title>
+	<style>
+input[type=submit]{
+	height:50px;
+	color:yellow;
+	background-color:black;
+	border-radius:40px;
+	border:3px solid blue;
+	font-family:comic sans ms;
+}
+input[type=text]{
+	height:40px;
+	border-radius:50px;
+	font-size:20px;
+	font-family:comic sans ms;
+	border:3px solid blue;
+	color:yellow;
+	background-color:black;
+}
+.tes{
+	background-color:yellow;
+	width:100%;
+	font-family:comic sans ms;
+}
+	</style>
+</head>
+<body>
+<form action="operatorperbandingan.php" method="post">
+<div class="tes">
+<table border="2" width="100%">
+<tr align="center">
+<td>Operand kiri</td>
+<td>Operator</td>
+<td>Operand kanan</td>
+<td rowspan="2"><input type="submit" value="Kirim !"></td>
+</tr>
+<tr align="center">
+<td><input type="text" name="angka1"></td>
+<td>
+<select name="tes">
+<option>==
+<option><
+<option>>
+<option><=
+<option>>=
+<option>!=
+</select>
+</td>
+<td><input type="text" name="angka2"></td>
+</tr>
+</table>
+</div>
+</form>
+</body>
+</html>
