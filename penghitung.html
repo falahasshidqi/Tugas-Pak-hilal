@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title></title>
+	<style>
+input[type=submit]{
+	height:50px;
+}
+select[name=tes]{
+	width:50px;
+	text-align:center;
+}
+	</style>
+</head>
+<body>
+<form action="penghitung.php" method="post">
+<table border="2">
+<tr align="center">
+<td>Operand kiri</td>
+<td>Operator</td>
+<td>Operand kanan</td>
+<td rowspan="2"><input type="submit" value="Kirim !"></td>
+</tr>
+<tr align="center">
+<td><input type="text" name="angka1"></td>
+<td>
+<select name="tes">
+<option>/
+<option>*
+<option>+
+<option>%
+<option>-
+</select>
+
+</td>
+<td><input type="text" name="angka2"></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>
