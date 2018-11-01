@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title></title>
+	<style>
+select[name=b]{
+	background-color:red;
+	border-radius:20px;
+	height:60px;
+	width:100px;
+}
+select[name=Tes]{
+	background-color:red;
+	border-radius:20px;
+    height:60px;
+    width:100px;
+}
+select[name=a]{
+	background-color:red;
+	border-radius:20px;
+	height:60px;
+	width:100px;
+    
+}
+input[type=submit]{
+	background-color:red;
+	border-radius:20px;
+	height:100px;
+	width:50px;
+	border:3px solid brown;
+}
+body{
+	font-family:comic sans ms;
+	font-size:20px;
+}
+.cek{
+	background-color:salmon;
+    font-family:comic sans ms;
+	font-size:20px;
+    width:380px;	
+}
+h1{
+	font-family:comic sans ms;
+	font-size:50px;
+	color:blue;
+}
+	</style>
+</head>
+<body>
+<center>
+<h1>Operator Logical</h1>
+<div class="cek">
+<table border="1">
+<form action="operatorlogical.php" method="post">
+	<tr>
+		<td align="center">operator kiri</td>
+		<td align="center">aritmatika</td>
+		<td align="center">oprator kanan</td>
+		<td rowspan="5" align="right"><input type="submit" value="Kirim!"></td>
+	</tr>
+	
+	<tr>
+		<td><select name="a">
+			
+			<option>true</option>
+			<option>false</option>
+			</select>
+
+		</td>	
+		
+		
+		<td><select name="Tes">
+			
+			<option>and</option>
+			<option>or</option>
+			<option>xor</option>
+			<option>!</option>
+
+			</select>
+		</td>	
+
+			<td><select name="b">
+			<option>true</option>
+			<option>false</option>
+			</select>
+			</td>	
+	
+	
+	</tr>
+</form>
+</table>
+</div>
+</body>
+</html>
